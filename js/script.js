@@ -1,11 +1,6 @@
 {
     const tasks = [
-        {
-            content: "zjeść śniadanie",
-        },
-        {
-            content: "zrobić zadanie domowe",
-        },
+      
     ];
 
     const addNewTask = (newTaskContent) => {
@@ -26,7 +21,7 @@
         render();
     };
 
-    bindEvents = () => {
+    const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
 
         removeButtons.forEach((removeButton, index) => {
