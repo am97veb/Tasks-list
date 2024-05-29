@@ -1,0 +1,28 @@
+.listButton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgb(55, 196, 0);
+    border: none;
+    text-decoration: none;
+}
+
+.listButton:active {
+    border: solid 2px black;
+}
+
+.listButton--remove {
+    width: 30px;
+    height: 30px;
+    color: rgb(240, 239, 239);
+    background-color: rgb(255, 50, 50);
+    border: none;
+}
+
+.listButton--remove:active {
+    border: solid 2px black;
+}
+
+.listButton--remove:hover {
+    color: white;
+}
