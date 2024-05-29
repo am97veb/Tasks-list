@@ -7,7 +7,7 @@ Below is the presentation, link to the application and the technologies used.
 
 
 
-![prezentacja aplikacji](gif/appPresentation.gif)
+![prezentacja aplikacji](https://github.com/am97veb/Tasks-list/blob/main/imagin%2C%20gif%2C%20icon/appPresentation.gif)
 
 ## Demo
 https://am97veb.github.io/Tasks-list/
