@@ -1,0 +1,52 @@
+.section__header {
+    max-width: 1500px;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0px 2px;
+}
+
+.section__form {
+    max-width: 1500px;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.section__label {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+}
+
+@media (max-width: 510px) {
+    .section__label {
+        grid-template-columns: 1fr;
+    }
+
+    .section__button {
+        padding: 10px;
+        margin: 0px 10px 10px 10px;
+    }
+}
+
+.section__newTask {
+    padding: 10px;
+    margin: 10px;
+    border: solid #dddada 1px;
+}
+
+.section__button {
+    color: white;
+    background-color: teal;
+    border: none;
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section__tasksList {
+    max-width: 1500px;
+    background-color: white;
+    width: 100%;
+    padding: 40px 0 20px 0;
+    margin-top: 2px;
+}
