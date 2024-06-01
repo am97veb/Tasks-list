@@ -1,6 +1,8 @@
 {
     const tasks = [
-
+      {
+        content: "ugotować obiad"
+      },
     ];
 
     const addNewTask = (newTaskContent) => {
