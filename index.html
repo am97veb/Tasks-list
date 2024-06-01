@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista zadań</title>
-    <link rel="icon" href="image, gif, icon/icon.png">
-    <meta property="og:image" content="image, gif, icon/share.png">
+    <link rel="icon" href="images/icon.png">
+    <meta property="og:image" content="images/share.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <link href="css/js-listItems.css" rel="stylesheet">
     <link href="css/js-button.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -26,17 +27,17 @@
     <section class="section">
         <h2 class="section__header">Dodaj nowe zadanie</h2>
 
-        <form class="section__form js-form">
-            <label class="section__label">
-                <input class="section__newTask js-newTask" placeholder="Co jest do zrobienia?">
-                <button class="section__button js-button">Dodaj zadanie</button>
+        <form class="form js-form">
+            <label class="form__label">
+                <input class="form__newTask js-newTask" placeholder="Co jest do zrobienia?">
+                <button class="form__button js-button">Dodaj zadanie</button>
             </label>
         </form>
     </section>
 
     <section>
         <h2 class="section__header">Lista zadań</h2>
-        <ul class="section__tasksList js-tasks"></ul>
+        <ul class="tasksList js-tasks"></ul>
     </section>
 </body>
 
