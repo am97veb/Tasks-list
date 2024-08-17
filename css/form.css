@@ -26,9 +26,15 @@
 .form__button {
     color: white;
     background-color: teal;
+    transition: 0.5s;
     border: none;
     margin: 10px;
     font-family: "Montserrat", sans-serif;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 35%);
+    transform: scale(1.1);
 }
 
 @media (max-width: 576px) {

@@ -1,0 +1,17 @@
+.newButton {
+    color: teal;
+    transition: 0.5s;
+    border: none;
+    background-color: white;
+}
+
+.newButton:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.newButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}

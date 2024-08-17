@@ -16,3 +16,7 @@
     display: grid;
     justify-self: start;
 }
+
+.hideItem {
+    display: none;
+}

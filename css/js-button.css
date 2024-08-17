@@ -3,20 +3,32 @@
     height: 30px;
     color: white;
     background-color: rgb(55, 196, 0);
+    transition: 0.5s;
     border: none;
     text-decoration: none;
+}
+
+.listButton:hover {
+    background-color: rgb(62, 219, 0) ;
 }
 
 .listButton:active {
     border: solid 2px black;
 }
 
+
 .listButton--remove {
     width: 30px;
     height: 30px;
     color: rgb(240, 239, 239);
-    background-color: rgb(255, 50, 50);
+    background-color: rgb(255, 34, 34);
+    transition: 0.5s;
     border: none;
+}
+
+.listButton--remove:hover {
+    background-color: rgb(255, 71, 71);
+
 }
 
 .listButton--remove:active {
