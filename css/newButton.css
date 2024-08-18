@@ -1,12 +1,21 @@
 .newButton {
-    color: teal;
+    color: rgb(0, 160, 160);
     transition: 0.5s;
     border: none;
     background-color: white;
 }
 
+.newButton:disabled {
+    color: rgba(194, 194, 194, 0.692);
+    transition: none;
+}
+
 .newButton:hover {
-    color: hsl(180, 100%, 35%);
+    color: hsl(180, 100%, 36%);
+}
+
+.newButton:disabled:hover {
+    color: rgba(194, 194, 194, 0.692);
 }
 
 .newButtons {
