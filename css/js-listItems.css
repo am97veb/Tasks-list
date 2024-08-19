@@ -17,6 +17,6 @@
     justify-self: start;
 }
 
-.hideItem {
+.list__item--hidden {
     display: none;
 }
