@@ -11,7 +11,6 @@
             { content: newTaskContent },
         ];
         render();
-
     };
 
     const removeTask = (taskIndex) => {
@@ -41,11 +40,15 @@
     };
 
     const toggleHideDoneTask = () => {
+        if (someTaskDone(tasks)) {
         hideDoneTask = !hideDoneTask;
+        };
         render();
     };
 
     const isAllTaskDone = (tasks) => tasks.every(({ done }) => done);
+
+    const someTaskDone = (tasks) => tasks.some(({done}) => done);
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
@@ -71,7 +74,7 @@
             if (tasks.length !== 0) {
                 newTaskButtons.innerHTML = `
                 <div class="newTaskButtons">
-                    <button class="doneTaskButton js-showDoneTasks ">${hideDoneTask && task.done ? "Pokaż" : "Ukryj"} ukończone </button>
+                    <button class="doneTaskButton js-showDoneTasks ">${hideDoneTask && someTaskDone(tasks) ? "Pokaż" : "Ukryj"} ukończone </button>
                     <button class="doneTaskButton js-doneAllTasks" ${isAllTaskDone(tasks) ? "disabled" : ""}>Ukończ wszystkie</button>
                 </div>
             `;
