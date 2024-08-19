@@ -22,4 +22,6 @@ CSS3:
 - Grid
 - Media Queries
 - Normalize.css
+- Immutability concept
+
 
