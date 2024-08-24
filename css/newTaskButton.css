@@ -19,15 +19,11 @@
     background-color: white;
 }
 
-.doneTaskButton:disabled {
-    color: rgba(194, 194, 194, 0.692);
-    transition: none;
-}
-
 .doneTaskButton:hover {
     color: hsl(180, 100%, 36%);
 }
 
-.doneTaskButton:disabled:hover {
+.doneTaskButton:disabled {
     color: rgba(194, 194, 194, 0.692);
+    transition: none;
 }
